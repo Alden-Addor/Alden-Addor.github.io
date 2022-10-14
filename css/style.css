@@ -9,6 +9,10 @@ html{
     margin: 1em;
 }
 
-.row{
-    text-align: center;
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    height: 213px;
 }
