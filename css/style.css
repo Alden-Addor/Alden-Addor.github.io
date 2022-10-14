@@ -8,3 +8,7 @@ html {
 html{
     margin: 1em;
 }
+
+.row{
+    text-align: center;
+}
