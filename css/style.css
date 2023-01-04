@@ -45,7 +45,7 @@ img{
 }
 
 
-/* h3{
+h3{
     background-color: #F2DFCE;
     text-align: center;
     margin-left: auto;
@@ -63,7 +63,7 @@ h5{
     width: 50%;
     border-radius: 30%;
     font-size: 20px;
-} */
+}
 
 section{
     margin-right: 3em;
@@ -79,16 +79,8 @@ section{
     font-size: 16px;
 }
 
-.pl{
-    width: 40%;
-}
-
 .spread{
     margin: 5em 0;
-}
-
-.col{
-    text-align: center;
 }
 
 .edu{
