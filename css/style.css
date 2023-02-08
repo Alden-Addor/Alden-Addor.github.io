@@ -11,7 +11,7 @@ sky blue - #548DBF
 light stone - #D9A87E
 sun stone - #D96725
 red stone - #BF4F26
-muted stone - #F2DFCE
+Main Background - muted stone - #F2DFCE9B
 purple stone - #524D59
 */
 
@@ -34,7 +34,8 @@ h1{
     margin-right: auto;
     text-shadow: 0 0 10px #D96725;
     color: #F2DFCE;
-    width: 40%;
+    width: 50%;
+    font-size: 78px;
 }
 
 img{
@@ -46,23 +47,31 @@ img{
 
 
 h3{
-    background-color: #F2DFCE;
+    background-color: #984819;
+    color: #f2dfcef1;
+    text-shadow: 0 0 1px #f2dfce9b;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
     width: 60%;
     border-radius: 30%;
-    font-size: 25px;
+    font-size: 38px;
 }
 
 h5{
-    background-color: #F2DFCE;
+    background-color: #984819;
+    color: #f2dfcef1;
+    text-shadow: 0 0 1px #f2dfce9b;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    width: 40%;
+    width: 45%;
     border-radius: 30%;
-    font-size: 20px;
+    font-size: 30px;
+}
+
+li{
+    font-size: 18px;
 }
 
 .link{
@@ -71,12 +80,12 @@ h5{
 
 .shell{
     text-align: center;
-    margin: 0 10%;
+    margin: 0 8%;
     font-size: 16px;
 }
 
 .spread{
-    margin: 5em 0;
+    margin: 15em 0;
 }
 
 .edu{

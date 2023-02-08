@@ -18,9 +18,13 @@
 </head>
 <body>
     <nav>
-        <a class="page-scroll link" href="#about">About</a>
-        <a class="link" href="#">Projects</a>
-        <a class="page-scroll link" href="#contact">Contact</a>
+        <div class="nav-wrapper">
+            <a class="left"><img src="images/NavBar Logo.png" style="height: 50px; width: 50px; margin-top: 8px; margin-left: 3em;"></a>
+                <a class="page-scroll link" href="#about" style="padding-right: 10px;">About</a>
+                <a class="page-scroll link" href="#projects" style="padding-right: 10px;">Projects</a>
+                <a class="page-scroll link" href="#work" style="padding-right: 10px;">History</a>
+                <a class="page-scroll link" href="#contact">Contact</a>
+        </div>
     </nav>
 
     <div id="index-banner" class="parallax-container">
@@ -37,20 +41,33 @@
     <main>
         <section id="about">
             <div class="spread">
-            <h3>The Nut Shell</h3>
-                <p class="shell">As a Navy veteran with over 15 years of mechanical and technical experience in an engineering field, I have a great understanding of engineering practices.  I have worked in attention to detail focused careers all my life from aircraft mechanics, to nuclear power, to critical facilities operations.  All of these careers have involved extensive group efforts, therefore I developed excellent communications skills and an ability to translate highly technical language to people who might not have a technical background.</p><br>
+            <h3>THE NUT SHELL</h3><br>
+                <p class="shell">As a Navy veteran with over 15 years of mechanical and technical experience in engineering fields, I have a great understanding of engineering practices. I have worked in attention-to-detail-focused careers all my life from aircraft mechanics, to nuclear power, to critical facilities operations. All of these careers have involved extensive group efforts, therefore I developed excellent communications skills and an ability to translate highly technical language to people who might not have a technical background.</p><br><br><br><br>
                     <div class="row">
-                        <div class="col s12 m6 l6 text center">
-                            <h5>Soft skills</h5>
+                        <div class="col s12 m4 l4 text center">
+                            <h5>Soft Skills</h5>
                                 <ul>
                                     <li>Critical thinker</li>
                                     <li>Data analysis</li>
                                     <li>Creative Problem Solving</li>
                                     <li>Observant</li>
-                                    <li>Communication/Collaberation</li>
+                                    <li>Communication/Collaboration</li>
+                                    <li>Object-Oriented Programming</li>
                                 </ul>
                         </div>
-                        <div class="col s12 m6 l6 text center">
+                        <div class="col s12 m4 l4 text center">
+                            <h5 class="pl">Progamming Libraries</h5>
+                                <ul>
+                                    <li>Django</li>
+                                    <li>Vue</li>
+                                    <li>Leaflet</li>
+                                    <li>Materialize</li>
+                                    <li>Ajax</li>
+                                    <li>Flask</li>
+                                    <li>Django REST Framework</li>
+                                </ul>
+                        </div>
+                        <div class="col s12 m4 l4 text center">
                             <h5 class="pl">Progamming langages</h5>
                                 <ul>
                                     <li>Python</li>
@@ -62,6 +79,59 @@
                     </div>
             </div>
         </section>
+        
+        <div class="spread" id="projects">
+            <h3>PROJECTS</h3><br><br>
+                <div class="row">
+                    <div class="col s12 m6 l6">
+                        <div class="card amber lighten-5">
+                            <div class="card-image waves-effect waves-block waves-teal">
+                                <img class="activator" src="images/G-Kamp Screen Shot.PNG" alt="Website screen shot." style="height:580px; width:100%; object-fit: cover;">
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title activator grey-text text-darken-4"><a href="https://github.com/Alden-Addor/G-Kamp">G-Kamp</a><i class="fa-solid fa-mountain-sun right"></i></span>
+
+                            </div>
+                            <div class="card-reveal amber lighten-5">
+                                <span class="card-title grey-text text-darken-4">G-Kamp<i class="material-icons right">close</i></span>
+                                <p>G-Kamp is a camping specific solution to Recreation.gov.  It uses the government API to filter out campgrounds only from REC.gov.  The project uses Python, Django, Vue, JavaScript, HTML, CSS, Materialize (as a styling framework), SQLite as the database, Ajax, and Leaflet for mapping.  This project used session manipulation also for saving data between views and the different API calls that were required.  Currently, it is still just on my Github page, but I am in the process of including more features and deploying as a live website.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12 m6 l6">
+                        <div class="card amber lighten-5">
+                            <div class="card-image waves-effect waves-block waves-teal">
+                                <img class="activator" src="images/Grounded Screen Shot.PNG" alt="Website screen shot." style="height:580px; object-fit: cover;">
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title activator grey-text text-darken-4"><a href="https://github.com/Alden-Addor/Projects/tree/main/JaveScript/Capstone">Grounded</a><i class="material-icons right">local_bar</i></span>
+                            </div>
+                            <div class="card-reveal amber lighten-5">
+                                <span class="card-title grey-text text-darken-4">Grounded<i class="material-icons right">close</i></span>
+                                <p>Grounded is a drink site that allows you to look up alcoholic and non-alcoholic drink ideas and recipes.  It uses a third-party API thecocktaildb for the data.  Vue and Ajax were the main focus of the project, with HTML, CSS, and Materialize filling out the rest of the programming.  The link and this project is currently the assignment version from my coding boot camp.  In the future, I intend to add functionality and create a more user-friendly version that I will deploy live.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+        <div id="work">
+            <h3>WORK HISTORY</h3><br>
+                <h5>Coors</h5>
+                    <p class="shell">Worked in utility operations where I was responsible for the operation and daily upkeep of vital operational systems such as electrical distribution, refrigeration, steam and condensate, CO2, pneumatic air, and cooling water. Hazmat response team was also a part of my job, responding to CO2, ammonia, and H2S leaks. I also gained insight and some education into the backend and programming of PLC controls.</p><br>
+                <h5>Navy</h5>
+                    <p class="shell">Serving as a Nuclear Machinist Mate, I became an expert in the technical aspects of nuclear power and all of its support systems.  During my time I was a student, mechanic, workshop lead, instructor, project coordinator for my department, and coordinator between the civilian shipyard and my department.  My instructor time during the Navy gave me excellent communication skills to work through problems with a level head and find solutions that benefited all.</p>
+        </div><br><br><br><br>
+        <div style="margin-bottom: 10em;">
+            <h3>EDUCATION</h3>
+                <div class="row">
+                    <div class="col s12 text center">
+                        <li>PDX Coding Guild Full-stack boot-camp:  Completed Dec 2022</li>
+                        <li>Purdue University Global: BS in Nutrition - Magna Cum Laude</li>
+                        <li>Naval Nuclear Power Training and Instructor</li>
+                        <li>FAA Airframe & Powerplant Certification - Certified Aircraft Mechanic</li>
+                    </div>
+                </div>
+        </div>
         <div id="index-banner" class="parallax-container">
             <div class="section no-pad-bot">
                 <div class="container">
@@ -71,24 +141,7 @@
             </div>
             <div class="parallax"><img src="images/Nice sky.jpeg" alt="Sunset over Nice, France"></div>
         </div>
-        <div class="spread">
-            <h3>Work History</h3>
-                <h5>Coors</h5>
-                    <p class="shell">Worked in utility operations where I was responsible for the operation and daily upkeep of vital operational systems such as electrical distribution, refrigeration, steam and condensate, CO2, pneumatic air, and cooling water.  Hazmat response team was also apart of my job, responding to CO2, ammonia, and H2S leaks.  I also gained insight and some education into the backend and programming of PLC controls.</p>
-                <h5>Navy</h5>
-                    <p class="shell">Served as a Nuclear Machinist Mate, I became an expert in the technical aspects of nuclear power and all of its support systems.  During my time I was a student, mechanic, workshop lead, instructor, project coordinator for my department, and coordinator between the civilian shipyard and my department.  My instructor time during the Navy gave me excellent communication skills to work through problems with a level head and find solutions that benefited all.</p>
-        </div>
-        <div class="spread">
-            <h3>Education</h3>
-                <div class="row">
-                    <div class="col s12 text center">
-                        <li>PDX Coding Guild Full-stack boot-camp:  Completed Dec 2022</li>
-                        <li>Purdue University Global: BS in Nutrition - Magna Cum Laude</li>
-                        <li>Naval Nuclear Power</li>
-                    </div>
-                </div>
-        </div>
-    </main>
+    </main><br>
         
     <footer>
         <hr>
@@ -99,7 +152,7 @@
             <i class="fa-brands fa-github"></i><a class="link" href="https://github.com/Alden-Addor">Github</a>
         </section>
         <div class="col s12 m6 l6">
-            <i>Copyright &copy; Alden Addor 2022</i>
+            <i>Copyright &copy; Alden Addor 2023</i>
         </div>
     </footer>
 
